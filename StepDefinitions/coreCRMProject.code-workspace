@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "coreCRMProject",
+			"path": "../../coreCRMProject"
+		},
+		{
+			"name": "Cucumber_Project",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
