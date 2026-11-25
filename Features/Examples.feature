@@ -1,4 +1,4 @@
-Feature: Verify HRMs login
+Feature: Verify HRM login
 
   Scenario Outline: Valid login test
     Given open the firefox browser
