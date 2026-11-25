@@ -3,7 +3,7 @@ Feature: Verify HRM login
   Scenario Outline: Valid login test
     Given open the firefox browser
     And Navigate to the url
-    launching browser"<username>"
+    When Enter the username "<username>"
     And Enter the Password "<password>"
     And click on login
     Then Verify Welcome Page
