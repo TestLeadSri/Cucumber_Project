@@ -9,7 +9,7 @@ setDefaultTimeout(15000);
 Given('open the firefox browser', async()=> {
 
     // Launch Firefox browser
-     browser= await firefox.launch({headless:false})
+     browser= await firefox.launch({headless:true})
 
     // Open a new browser page
     page = await browser.newPage();
