@@ -24,7 +24,7 @@ Given('Navigate to the url', async()=> {
 
 
 //ScenarioOutline Examples
-When('Enter the Username {string}', async (Username:string) => {
+When('Enter the username {string}', async (Username:string) => {
  await page.locator("[name='txtUserName']").fill(Username);
 
   
